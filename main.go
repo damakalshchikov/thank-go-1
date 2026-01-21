@@ -1,6 +1,6 @@
 package main
 
-import "github.com/damakalshchikov/thank-go-1/basic/basic1"
+import "github.com/damakalshchikov/thank-go-1/basic/basic_constructions"
 
 func main() {
 	// basic1.DurationInMinutes()

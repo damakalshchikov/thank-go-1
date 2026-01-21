@@ -1,4 +1,4 @@
-package basic1
+package basic_constructions
 
 import "fmt"
 
