@@ -9,5 +9,5 @@ func RepeatString(sours string, times int) {
 		result += sours
 	}
 
-	fmt.Print(result)
+	fmt.Println(result)
 }

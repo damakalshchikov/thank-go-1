@@ -16,5 +16,5 @@ func LangByCode(code string) {
 		lang = "Unknown"
 	}
 
-	fmt.Print(lang)
+	fmt.Println(lang)
 }
