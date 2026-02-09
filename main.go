@@ -1,13 +1,8 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
-)
-
 // "github.com/damakalshchikov/thank-go-1/basic/arrays_and_maps"
 // "github.com/damakalshchikov/thank-go-1/basic/basic_constructions"
+// 	"github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
 
 func main() {
 	// Задачи из раздела 1.2 "Базовые конструкции"
@@ -27,4 +22,12 @@ func main() {
 	// и запишите результат в `res`
 	// res := funcs_and_points.Filter(func(x int) bool { return x%2 == 0 }, src)
 	// fmt.Println(res)
+
+	// a, b := 1.0, 3.0
+	// funcs_and_points.Normalize(&a, &b)
+	// fmt.Println(a, b)
+
+	// a, b, c, d := 1.0, 2.0, 3.0, 4.0
+	// funcs_and_points.Normalize(&a, &b, &c, &d)
+	// fmt.Println(a, b, c, d)
 }
