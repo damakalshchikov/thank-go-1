@@ -1,5 +1,7 @@
 package main
 
+import "github.com/damakalshchikov/thank-go-1/basic/structs_and_methods"
+
 // "github.com/damakalshchikov/thank-go-1/basic/arrays_and_maps"
 // "github.com/damakalshchikov/thank-go-1/basic/basic_constructions"
 // 	"github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
@@ -30,4 +32,10 @@ func main() {
 	// a, b, c, d := 1.0, 2.0, 3.0, 4.0
 	// funcs_and_points.Normalize(&a, &b, &c, &d)
 	// fmt.Println(a, b, c, d)
+
+	// Задачи из раздела 1.5 "Структуры и методы"
+	src := structs_and_methods.ReadString()
+	trn := structs_and_methods.ParseTournament(src)
+	rt := trn.CalcRating()
+	rt.Print()
 }
