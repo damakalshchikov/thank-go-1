@@ -1,10 +1,9 @@
 package main
 
-import "github.com/damakalshchikov/thank-go-1/basic/structs_and_methods"
-
 // "github.com/damakalshchikov/thank-go-1/basic/arrays_and_maps"
 // "github.com/damakalshchikov/thank-go-1/basic/basic_constructions"
-// 	"github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
+// "github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
+// "github.com/damakalshchikov/thank-go-1/basic/structs_and_methods"
 
 func main() {
 	// Задачи из раздела 1.2 "Базовые конструкции"
@@ -34,8 +33,16 @@ func main() {
 	// fmt.Println(a, b, c, d)
 
 	// Задачи из раздела 1.5 "Структуры и методы"
-	src := structs_and_methods.ReadString()
-	trn := structs_and_methods.ParseTournament(src)
-	rt := trn.CalcRating()
-	rt.Print()
+	// src := structs_and_methods.ReadString()
+	// trn := structs_and_methods.ParseTournament(src)
+	// rt := trn.CalcRating()
+	// rt.Print()
+
+	// var s string
+	// fmt.Scan(&s)
+	// // валидатор, который проверяет, что пароль содержит буквы и цифры,
+	// // либо его длина не менее 10 символов
+	// validator := structs_and_methods.Or(structs_and_methods.And(structs_and_methods.Digits, structs_and_methods.Letters, structs_and_methods.Minlen(10)))
+	// p := structs_and_methods.NewPassword(s, validator)
+	// fmt.Println(p.IsValid())
 }
