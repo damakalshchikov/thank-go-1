@@ -4,6 +4,7 @@ package main
 // "github.com/damakalshchikov/thank-go-1/basic/basic_constructions"
 // "github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
 // "github.com/damakalshchikov/thank-go-1/basic/structs_and_methods"
+// "github.com/damakalshchikov/thank-go-1/basic2/interfaces"
 
 func main() {
 	// Задачи из раздела 1.2 "Базовые конструкции"
@@ -45,4 +46,7 @@ func main() {
 	// validator := structs_and_methods.Or(structs_and_methods.And(structs_and_methods.Digits, structs_and_methods.Letters, structs_and_methods.Minlen(10)))
 	// p := structs_and_methods.NewPassword(s, validator)
 	// fmt.Println(p.IsValid())
+
+	// Задачи из раздела 2.1 "Интерфейсы"
+	// "Универсальный итератор"
 }
