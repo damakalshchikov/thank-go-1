@@ -1,10 +1,14 @@
 package main
 
+import (
+	"fmt"
+	"github.com/damakalshchikov/thank-go-1/basic2/interfaces"
+)
+
 // "github.com/damakalshchikov/thank-go-1/basic/arrays_and_maps"
 // "github.com/damakalshchikov/thank-go-1/basic/basic_constructions"
 // "github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
 // "github.com/damakalshchikov/thank-go-1/basic/structs_and_methods"
-// "github.com/damakalshchikov/thank-go-1/basic2/interfaces"
 
 func main() {
 	// Задачи из раздела 1.2 "Базовые конструкции"
@@ -49,4 +53,12 @@ func main() {
 
 	// Задачи из раздела 2.1 "Интерфейсы"
 	// "Универсальный итератор"
+
+	nums := interfaces.ReadInput()
+	it := interfaces.NewIntIterator(nums)
+	weight := func(el interfaces.Element) int {
+		return el.(int)
+	}
+	m := interfaces.Max(it, weight)
+	fmt.Println(m)
 }
