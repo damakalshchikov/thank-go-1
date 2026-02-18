@@ -1,15 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"github.com/damakalshchikov/thank-go-1/basic2/interfaces"
-)
-
-// "github.com/damakalshchikov/thank-go-1/basic/arrays_and_maps"
-// "github.com/damakalshchikov/thank-go-1/basic/basic_constructions"
-// "github.com/damakalshchikov/thank-go-1/basic/funcs_and_points"
-// "github.com/damakalshchikov/thank-go-1/basic/structs_and_methods"
-
 func main() {
 	// Задачи из раздела 1.2 "Базовые конструкции"
 	// basic_constructions.DurationInMinutes()
@@ -54,11 +44,14 @@ func main() {
 	// Задачи из раздела 2.1 "Интерфейсы"
 	// "Универсальный итератор"
 
-	nums := interfaces.ReadInput()
-	it := interfaces.NewIntIterator(nums)
-	weight := func(el interfaces.Element) int {
-		return el.(int)
-	}
-	m := interfaces.Max(it, weight)
-	fmt.Println(m)
+	// nums := interfaces.ReadInput()
+	// it := interfaces.NewIntIterator(nums)
+	// weight := func(el interfaces.Element) int {
+	// 	return el.(int)
+	// }
+	// m := interfaces.Max(it, weight)
+	// fmt.Println(m)
+
+	// Задачи из раздела 2.2 "Ошибки"
+	// "Счёт в банке"
 }
